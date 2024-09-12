@@ -1,0 +1,192 @@
+/* FUENTES DE GOOGLE */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.navbar .nav-link, .navbar .navbar-brand {
+    color: white; /* Texto en blanco */
+  }
+
+/* Fondo y texto del body */
+body {
+    background-color: #343a40; /* Fondo oscuro pero más claro que el navbar */
+    color: white; /* Texto en blanco */
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1, h2 {
+    color: white; /* Encabezados en blanco */
+  }
+  
+  section {
+    padding-top: 4rem; /* Con esto el navbar no tapa el nombre */
+    border-bottom: 1px solid #444; /* Bordes entre secciones para diferenciarlas */
+    min-height: 100vh;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #212529; /* Mismo color que el navbar */
+    color: white; /* Texto en blanco */
+  }
+  .navbar-dark .navbar-nav .nav-item .nav-link.active {
+    background-color: blue; /* Color de fondo oscuro para el enlace activo */
+    color: white; /* Color de texto blanco para el enlace activo */
+  }
+
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    background-color: blue; /* Color de fondo al pasar el cursor */
+  }
+  .navbar-item{
+    background-color: #212529;
+  }
+
+  article{
+    padding-inline: 4rem;
+  }
+  
+
+  /* Estilos personalizados para la sección "Inicio" */
+  #Inicio{
+    color: black;
+    display: flex; /* Alinea el contenido en el centro */
+    justify-content: center; /* Alinea horizontalmente al centro */
+    align-items: center; /* Alinea verticalmente al centro */
+    text-align: center; /* Texto centrado */
+    flex-direction: column; /* Alinea en columna los elementos */
+    background-color: white;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#Inicio h1 {
+  color: black;
+  font-size: 4rem; /* Tamaño de la fuente del título */
+  margin: 0; /* Elimina márgenes superiores/inferiores */
+}
+
+#Inicio span {
+  color: blue; /* Color azul para el nombre */
+}
+
+#Inicio p {
+  font-size: 2.5rem; /* Tamaño de la fuente del subtítulo */
+  margin-top: 1.5rem; /* Ajusta el espacio entre el h1 y el p */
+}
+
+/* Estilos para la sección Sobre Mi*/
+
+.Sobremi{
+  padding: 55px;
+}
+
+.contenido-sobremi{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.Sobremi h2{
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  text-align: center;
+  
+}
+
+.Sobremi .contenido-sobremi p{
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.Sobremi .contenido-sobremi p span{
+  font-weight: bold;
+}
+
+.Sobremi .fila{
+  display: flex;
+}
+
+.Sobremi .col span{
+  font-weight: bold;
+}
+
+.Sobremi .fila .col{
+  margin: 30px;
+}
+
+.Sobremi .fila .col h3{
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 10px;
+}
+
+.contenido-hist{
+  margin-bottom: 20px;
+}
+
+.Sobremi .fila .col ul{
+  list-style: none;
+}
+
+.Sobremi .fila .col ul li{
+  margin: 12px;
+}
+
+.Sobremi .fila .col ul li strong{
+  display: inline-block;
+  width: 110px;
+}
+
+.Sobremi .fila .col ul li span{
+  background-color: aqua;
+}
+
+.contenedor-intereses{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.interes{
+  width: 200px;
+  height: 100px;
+  background-color: lightslategray;
+  border-radius: 10px;
+  margin: 0 15px 15px 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Estilos para la sección Habilidades */
+#Habilidades {
+  display:flex;
+  align-items: center;
+}
+
+.carousel-item img{
+  margin: auto;
+  max-width: 50vw;
+  height: 50vh;
+  border-radius: 20px;
+  border: #212529 solid 5px;
+}
+
+.modal-title {
+  color: black;
+}
+
+.modal-body img{
+  width: 100%;
+}
+
+
+/* Sección "Sobre Mi" */
