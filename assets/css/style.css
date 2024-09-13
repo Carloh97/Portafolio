@@ -172,6 +172,23 @@ body {
   align-items: center;
 }
 
+/* Estilos para la sección Proyectos */
+
+/* Con esto el carrusel se centra pero las flechas quedan enormes */
+.carousel{
+  display: flex;
+  align-items: center;
+  height:100vh;
+}
+
+/* Esto lo hice para volver a centrar las flechas y ajustar su tamaño*/
+.carousel-control-prev,
+.carousel-control-next {
+  height: 500px; /* Cambia la altura de la flecha */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .carousel-item img{
   margin: auto;
   max-width: 50vw;
