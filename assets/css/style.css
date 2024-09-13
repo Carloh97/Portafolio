@@ -184,6 +184,10 @@ body {
   padding: 150px;
 }
 
+#Proyectos h2{
+  margin-bottom: 50px;
+}
+
 .carousel-item img{
   margin: auto;
   max-width: 50vw;
