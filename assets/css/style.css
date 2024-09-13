@@ -153,6 +153,7 @@ body {
 .contenedor-intereses{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .interes{
