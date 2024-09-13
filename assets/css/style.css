@@ -87,6 +87,7 @@ body {
 
 .Sobremi{
   padding: 55px;
+  text-align: center;
 }
 
 .contenido-sobremi{
@@ -174,19 +175,13 @@ body {
 
 /* Estilos para la sección Proyectos */
 
-/* Con esto el carrusel se centra pero las flechas quedan enormes */
-.carousel{
-  display: flex;
+#Proyectos{
+  text-align: center;
   align-items: center;
   height:100vh;
-}
-
-/* Esto lo hice para volver a centrar las flechas y ajustar su tamaño*/
-.carousel-control-prev,
-.carousel-control-next {
-  height: 500px; /* Cambia la altura de la flecha */
-  top: 50%;
-  transform: translateY(-50%);
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
 }
 
 .carousel-item img{
@@ -203,4 +198,12 @@ body {
 
 .modal-body img{
   width: 100%;
+}
+
+/* Estilos para la sección contáctame */
+
+#Contáctame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
